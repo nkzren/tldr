@@ -9,6 +9,12 @@
 
 `nvim {{caminho/para/arquivo}}`
 
+- Abre 2 arquivos no modo de diff:
+`nvim -d {{path/to/first/file}} {{path/to/second/file}}`
+
+- Abre o nvim sem nenhum arquivo de configuração:
+`nvim --clean {{path/to/file}}`
+
 - Entra no modo de edição de texto (mode de inserção):
 
 `<Esc>i`

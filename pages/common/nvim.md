@@ -9,6 +9,12 @@
 
 `nvim {{path/to/file}}`
 
+- Open files in diff mode:
+`nvim -d {{path/to/first/file}} {{path/tosecond/file}}`
+
+- Open nvim without any config files:
+`nvim --clean {{path/to/file}}`
+
 - Enter text editing mode (insert mode):
 
 `<Esc>i`
